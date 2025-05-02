@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/contactus.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <header>
+        <h1>Contact Us</h1>
+        <input type="button" id="back-button" value="Back" onclick="window.location.href='homepage.html'">
+    </header>
+
+    <main class="contactus-main">
+
+        <p>
+            TechnHub is a premier IT and digital marketing consultancy specialising in bespoke web solutions and growth-focused strategies. Based in Pakistan, our team of accredited professionals combines technical expertise with commercial insight to deliver exceptional digital experiences. From responsive web design to cloud infrastructure and SEO optimisation, we help UK businesses enhance their online presence, streamline operations, and achieve measurable results. Whether you're an ambitious start-up or an established enterprise, TechnHub provides the innovation and reliability your digital journey demands.
+        </p>
+
+        <p class="contactus-address">
+            <b>Address:</b> 123 Tech Street, City, Country<br>
+            <b>Phone:</b> Email Us For Our Helpline<br>
+            <b>Email:</b> info@technhub.com<br>
+        </p>   
+
+        <form class="contactus-form" action="/submit-form" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>   
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+        </form>
+
+        <p>
+            <b>Opening Hours:</b><br>
+            Monday - Friday: 9am - 5pm<br>
+            Saturday: 10am - 2pm<br>
+            Sunday: Closed
+        </p>
+    </main>
+
+    
+    <footer class="contactus-footer">
+        <ul class="contactus-footer-content">
+            <h1 class="contactus-footer-title">Follow Us</h1>
+            <li>Facebook</li>
+            <li>Twitter</li>
+            <li>Instagram</li>
+            <p>Mian Khizar Atif | TMUC | Computing | Website Design & Development </p>
+        </ul>
+    </footer>
+
+    <script src="/js/Scripts/contactus.js"></script>
+</body>
+</html>
