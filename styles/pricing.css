@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.6rem;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f8ff;
+}
+
+
+
+
+/*----------------------- Header -----------------------*/
+
+header {
+  background-color: #489c7a;
+  color: white;
+  padding: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.4rem;
+}
+
+header button,
+.back-button {
+  background-color: #e19955;
+  color: white;
+  border: none;
+  padding: 0.8rem 1.6rem;
+  cursor: pointer;
+  border-radius: 0.5rem;
+}
+
+
+
+
+/*----------------------- Main Content -----------------------*/
+
+.main-content {
+  padding: 2rem;
+  max-width: 100rem;
+  margin: 0 auto;
+}
+
+.pricing-options {
+  display: flex;
+  gap: 2rem;
+  margin-top: 3rem;
+}
+
+.price-box {
+  background-color: white;
+  border: 1px solid #ddd;
+  padding: 2rem;
+  flex: 1;
+  border-radius: 1.5rem;
+}
+
+.price-box.popular {
+  border: 2px solid #e19955;
+}
+
+.price-box h2 {
+  color: #489c7a;
+  margin-top: 0;
+}
+
+.price {
+  font-size: 2.4rem;
+  font-weight: bold;
+  color: #333;
+  margin: 1.5rem 0;
+}
+
+.price-box ul {
+  padding-left: 2rem;
+  margin-bottom: 2rem;
+}
+
+
+
+
+/*----------------------- FAQ -----------------------*/
+
+.faq {
+  margin-top: 4rem;
+  background-color: white;
+  padding: 2rem;
+  border-radius: 1rem;
+}
+
+.faq h2 {
+  color: #489c7a;
+  margin-top: 0;
+}
+
+
+
+
+/*----------------------- Footer -----------------------*/
+
+footer {
+  background-color: #489c7a;
+  color: white;
+  text-align: center;
+  padding: 1.5rem;
+  margin-top: 3rem;
+}
+
+
+
+
+/*----------------------- Responsive -----------------------*/
+
+@media (max-width: 768px) {
+  .pricing-options {
+    flex-direction: column;
+  }
+}
