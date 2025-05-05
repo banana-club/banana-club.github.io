@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+  height: 100%;
+}
+
+
+
+
+/*----------------------- Header -----------------------*/
+
+.homepage-header {
+  background-color: #489c7a;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.homepage-logo img {
+  margin-left: 2rem;
+}
+
+.homepage-nav ul {
+  display: flex;
+  list-style: none;
+}
+
+.homepage-nav li {
+  margin: 0 1rem;
+}
+
+.homepage-nav a {
+  display: inline-block;
+  padding: 0.8rem 1.5rem;
+  background-color: #ffffff;
+  color: #000;
+  text-decoration: none;
+  border-radius: 1rem;
+  font-weight: 600;
+  font-size: 1.5rem;
+  transition: background-color 0.2s ease;
+}
+
+.homepage-nav a:hover {
+  background-color: #e19955;
+}
+
+
+
+
+/*----------------------- Main Section -----------------------*/
+
+.homepage-main-section {
+  padding: 2.5rem;
+  background-color: #e8f5f0;
+}
+
+.homepage-main-image-section {
+  display: flex;
+  align-items: flex-start;
+  background-color: lightblue;
+  height: 27rem;
+}
+
+.homepage-main-section h1 {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+  font-family: "Lexend Giga", sans-serif;
+}
+
+.homepage-main-section p {
+  font-size: 1.8rem;
+  line-height: 1.5;
+  margin-bottom: 2rem;
+  font-family: "Lexend Deca", sans-serif;
+}
+
+.homepage-main-section-image-1 {
+  display: flex;
+  width: 50%;
+  height: auto;
+}
+
+.homepage-main-section-solid-colour {
+  width: 50%;
+  height: 100%;
+  background-color: #e19955;
+}
+
+
+
+
+/*----------------------- Footer -----------------------*/
+
+.homepage-footer {
+  position: relative;
+  bottom: 0;
+  left: 0;
+  height: 15rem;
+  background-color: #489c7a;
+  padding: 3rem;
+}
+
+.footer-content ul {
+  font-size: 1.5rem;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  color: #fff;
+}
+
+.footer-content li {
+  margin-bottom: 1rem;
+}
+
+.homepage-copyright {
+  text-align: center;
+}
+
+
+
+
+/*----------------------- Responsive -----------------------*/
+
+@media (max-width: 600px) {
+  .service {
+    width: 100%;
+  }
+}
